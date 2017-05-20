@@ -1,0 +1,28 @@
+#contact
+{
+    text-align: center;
+    background-color: $contact-section-bg;
+    color: #FFF;
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        padding: 15px 20px;
+    }
+
+    .contact-links li {
+        display: inline-block;
+        a {
+            display: block;
+            padding: 15px 30px;
+            color: #1d2c3c;
+            @include transition(color 0.25s ease);
+
+            &:hover {
+                color: #FFF;
+            }
+        }
+    }
+}

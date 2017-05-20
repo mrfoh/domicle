@@ -50,17 +50,27 @@
         }
 
         .bio-text {
-            width: 350px;
             margin: 0 auto;
             font-size: 1em;
             padding: 10px 0px;
             line-height: 1.5em;
-            text-align: justify;
+            text-align: left;
 
             a {
                 color: #47b1da;
                 font-weight: 400;
             }
+
+            .glow {
+                letter-spacing: 1.3px;
+                color: $link-color;
+            }
         }
+    }
+}
+
+@media (min-width: 768px) {
+    #about .bio-text {
+        width: 400px;
     }
 }
