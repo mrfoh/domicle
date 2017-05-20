@@ -3,6 +3,10 @@
     width: 100%;
     min-height: 20px;
     background-color: $header-bg;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 
     .header__inner {
         position: relative;
