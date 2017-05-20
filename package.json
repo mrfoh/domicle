@@ -1,0 +1,23 @@
+{
+  "name": "mrfoh.me",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index"
+  },
+  "repository": "https://github.com/mrfoh/domicle.git",
+  "author": "Patrick Foh <patrickfoh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "serve-favicon": "^2.4.3"
+  }
+}

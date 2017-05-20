@@ -1,0 +1,66 @@
+#about {
+    background: $about-section-bg;
+
+    .mugshot {
+        padding: 15px 0px;
+        width: 220px;
+        margin: 0 auto;
+
+        img {
+            @include border-radius(100%);
+            border: 5px solid #FFF;
+        }
+    }
+
+    .bio 
+    {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        color: #FFF;
+
+        .links {
+            padding: 20px 0px;
+        }
+
+        .links li {
+            display: inline-block;
+
+            a {
+                display: block;
+                padding: 15px 15px;
+                color: #FFF;
+                margin-left: 5px;
+                @include transition(all 0.25s ease);
+
+                &:hover {
+                    color: $link-color;
+                }
+            }
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: 400;
+        }
+
+        .role {
+            font-size: 1.3em;
+            padding: 10px 0px;
+        }
+
+        .bio-text {
+            width: 350px;
+            margin: 0 auto;
+            font-size: 1em;
+            padding: 10px 0px;
+            line-height: 1.5em;
+            text-align: justify;
+
+            a {
+                color: #47b1da;
+                font-weight: 400;
+            }
+        }
+    }
+}
